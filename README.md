@@ -1,16 +1,22 @@
-# nutri_health
+# Nutri Health Tracker App
 
-A new Flutter project.
+A mobile application built with **Flutter** to help users track nutrition, monitor health, and interact with an AI Assistant.
+
+## Features
+
+- 👤 User Profile Screen
+- 🍽️ Meal Logger
+- 🧠 AI Assistant (Google AI Studio Gemini API)
+- 📊 Health Tracker Dashboard
+- 🔥 Firebase App Distribution for testers
+- 🟢 Green & Lavender theme
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK installed
+- Android Studio or VS Code
+- A physical device or emulator
+- Google AI API key (for AI assistant)
+- Firebase project configured
