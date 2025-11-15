@@ -65,8 +65,11 @@ Nutri Health Tracker is a Flutter mobile application designed to help users moni
 
 ### 1️⃣ Clone the repository
 
+```bash
 git clone https://github.com/JawamaKE/Nutri_Health_Tracker.git
 cd Nutri_Health_Tracker
+
+```
 
 ---
 
