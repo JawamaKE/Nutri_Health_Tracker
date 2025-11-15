@@ -142,5 +142,5 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ## 👨‍💻 Author
 
-Jane Wangu Maina
-GitHub: https://github.com/JawamaKE
+- Jane Wangu Maina
+- GitHub repository link: https://github.com/JawamaKE/Nutri_Health_Tracker
