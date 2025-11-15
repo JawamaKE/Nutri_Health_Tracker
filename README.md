@@ -1,4 +1,4 @@
-# 🍏 Nutri Health Tracker
+# 🍏 Nutri Health Tracker App
 
 Nutri Health Tracker is a Flutter mobile application designed to help users monitor nutrition, track health metrics, and interact with an AI assistant for personalized guidance. The app provides an easy-to-use interface, structured health tracking tools, and an intelligent chat assistant powered by Google’s Gemini API.
 
