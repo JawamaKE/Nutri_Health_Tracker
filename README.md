@@ -1,22 +1,121 @@
-# Nutri Health Tracker App
+# 🍏 Nutri Health Tracker
 
-A mobile application built with **Flutter** to help users track nutrition, monitor health, and interact with an AI Assistant.
+Nutri Health Tracker is a Flutter mobile application designed to help users monitor nutrition, track health metrics, and interact with an AI assistant for personalized guidance. The app provides an easy-to-use interface, structured health tracking tools, and an intelligent chat assistant powered by Google’s Gemini API.
 
-## Features
+---
 
-- 👤 User Profile Screen
-- 🍽️ Meal Logger
-- 🧠 AI Assistant (Google AI Studio Gemini API)
-- 📊 Health Tracker Dashboard
-- 🔥 Firebase App Distribution for testers
-- 🟢 Green & Lavender theme
+## ✨ Features
 
-## Getting Started
+### 🔹 Profile Screen
 
-### Prerequisites
+- Manage personal details
+- Update user information
 
-- Flutter SDK installed
-- Android Studio or VS Code
-- A physical device or emulator
-- Google AI API key (for AI assistant)
-- Firebase project configured
+### 🔹 AI Assistant (Gemini API)
+
+- Ask nutrition, health, and fitness questions
+- Receive instant, AI-powered guidance
+- Chat-style interface
+
+### 🔹 Meal Logger
+
+- Log meals daily
+- Track calories and nutrients
+
+### 🔹 Health Tracker
+
+- Track weight, BMI, sleep and water intake.
+- AI insights
+
+### 🔹 Firebase Integration
+
+- Firebase App Distribution for testers
+- Optional authentication (future expansion)
+
+### 🔹 Clean UI
+
+- Modern color themes
+- Smooth navigation and responsive layout
+
+---
+
+## 🛠 Tech Stack
+
+| Technology     | Purpose                         |
+| -------------- | ------------------------------- |
+| **Flutter**    | Mobile app development          |
+| **Dart**       | Main programming language       |
+| **Firebase**   | Distribution & backend services |
+| **Gemini API** | AI-powered assistant            |
+| **GitHub**     | Version control                 |
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/JawamaKE/Nutri_Health_Tracker.git
+cd Nutri_Health_Tracker
+
+---
+
+### 2️⃣ Install dependencies
+flutter pub get
+
+### 3️⃣ Run the app
+flutter run
+
+---
+
+## 🔑 Environment Setup (Gemini API Key)
+
+- Create a .env file in the project root:
+
+- GEMINI_API_KEY=your_api_key_here
+
+
+- Make sure you do not push your API key to GitHub.
+
+---
+
+## 📁 Project Structure
+lib/
+ ├── main.dart
+ ├── home_screen.dart
+ ├── ai_assistant_screen.dart
+ ├── meal_logger_screen.dart
+ ├── health_tracker_screen.dart
+ └── profile_screen.dart
+
+ ---
+
+## 🚀 Build Release APK
+flutter build apk --release
+
+
+- APK will be located at:
+
+build/app/outputs/flutter-apk/app-release.apk
+
+---
+
+## 🤝 Contributing
+
+- Contributions, issues, and feature requests are welcome!
+- Feel free to open a pull request.
+
+---
+
+## 📜 License
+
+- This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+JawamaKE
+GitHub: https://github.com/JawamaKE
+```
