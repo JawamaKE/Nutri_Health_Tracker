@@ -1,0 +1,3 @@
+Initial release of Nutri Health Tracker!
+- Added profile, health tracker, meal logger, and AI assistant features.
+- Improved UI and performance.
