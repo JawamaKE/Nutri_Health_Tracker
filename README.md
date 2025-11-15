@@ -73,15 +73,19 @@ cd Nutri_Health_Tracker
 
 ---
 
-### Install dependencies
+### 2️⃣ Install dependencies
 
+```bash
 flutter pub get
+```
 
 ---
 
 ### 3️⃣ Run the app
 
+```bash
 flutter run
+```
 
 ---
 
@@ -97,6 +101,7 @@ flutter run
 
 ## 📁 Project Structure
 
+```bash
 lib/
 ├── main.dart
 ├── home_screen.dart
@@ -104,16 +109,21 @@ lib/
 ├── meal_logger_screen.dart
 ├── health_tracker_screen.dart
 └── profile_screen.dart
+```
 
 ---
 
 ## 🚀 Build Release APK
 
+```bash
 flutter build apk --release
+```
 
 - APK will be located at:
 
+```bash
 build/app/outputs/flutter-apk/app-release.apk
+```
 
 ---
 
@@ -132,5 +142,5 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ## 👨‍💻 Author
 
-JawamaKE
+Jane Wangu Maina
 GitHub: https://github.com/JawamaKE
