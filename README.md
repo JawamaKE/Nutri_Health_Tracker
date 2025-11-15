@@ -127,7 +127,7 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributors
 
 - Contributions, issues, and feature requests are welcome!
 - Feel free to open a pull request.
