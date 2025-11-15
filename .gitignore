@@ -18,6 +18,8 @@ migrate_working_dir/
 *.ipr
 *.iws
 .idea/
+lib/secrets.dart
+
 
 # VS Code
 #.vscode/
