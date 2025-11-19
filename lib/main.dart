@@ -1,11 +1,19 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'package:flutter/material.dart';
+
 import 'home_screen.dart';
 import 'profile_screen.dart';
 import 'meal_logger_screen.dart';
 import 'health_tracker_screen.dart';
 import 'ai_assistant_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
   runApp(const MyApp());
 }
 
@@ -36,7 +44,7 @@ class DashboardScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Nutri Health Tracker 🩺📈 ــــــــــﮩ٨ـ',
+          ' Nutri Health Tracker 🩺📈',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontStyle: FontStyle.italic,
@@ -44,7 +52,7 @@ class DashboardScreen extends StatelessWidget {
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.lightGreen,
+        backgroundColor: Colors.teal.shade300,
       ),
 
       // ✅ SafeArea prevents overflow under status bar or system UI

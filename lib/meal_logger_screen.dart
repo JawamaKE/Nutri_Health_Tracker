@@ -152,7 +152,7 @@ class _MealLoggerScreenState extends State<MealLoggerScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber[100],
+      backgroundColor: Colors.yellow[100],
       appBar: AppBar(
         centerTitle: true,
         title: const Text(

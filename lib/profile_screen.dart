@@ -172,7 +172,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             fontStyle: FontStyle.italic,
           ),
         ),
-        backgroundColor: Colors.purpleAccent,
+        backgroundColor: Colors.purpleAccent.shade100,
         centerTitle: true,
       ),
       body: SingleChildScrollView(
