@@ -19,8 +19,7 @@ migrate_working_dir/
 *.iws
 .idea/
 lib/secrets.dart
-
-
+lib/firebase_options.dart
 
 # VS Code
 #.vscode/
